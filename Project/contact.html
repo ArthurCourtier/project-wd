@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing 4 All - Contact</title>
+    <meta name="description" content="Contact Clothing 4 All for inquiries, orders, or feedback.">
+    <meta name="keywords" content="contact, form, clothing, store, map, info">
+    <meta name="author" content="Clothing 4 All Team">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <style>
+        .note {
+            background-color: #ffeeba;
+            padding: 8px;
+            border-left: 4px solid #ffcc00;
+        }
+        nav ul li a.active {
+            background-color: #ffcc00;
+            color: black;
+            font-weight: bold;
+        }
+        main > * {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Clothing 4 All Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shirts.html">Shirts</a></li>
+                <li><a href="pants.html">Pants</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="contact.html" class="active">Information & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Get in Touch</h1>
+
+        <article>
+            <p>Have questions or need help? Use the form below to get in touch with our support team. We typically respond within 24 hours. You can also visit us at our store or find us on the map below.</p>
+        </article>
+
+        <aside class="note">
+            <h3>Support Hours</h3>
+            <ul>
+                <li>Mon–Fri: 9am–6pm</li>
+                <li>Sat: 10am–4pm</li>
+                <li>Sun: Closed</li>
+            </ul>
+        </aside>
+
+        <section>
+            <h2>Contact Form</h2>
+            <form action="http://foo.com" method="get">
+                <label for="name">Name: <span style="color:red">*</span></label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email: <span style="color:red">*</span></label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message: <span style="color:red">*</span></label><br>
+                <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+        <!-- Embedded Google Map -->
+        <section>
+            <h2>Visit Us</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.207440036257!2d2.3313893500000004!3d48.8566969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e296f4bfcf7%3A0xe3b2c84e79e316a7!2sParis%2C%20France!5e0!3m2!1sen!2sus!4v1711818504637!5m2!1sen!2sus"
+                width="100%" 
+                height="450" 
+                style="border:0; border-radius: 10px; margin-top: 20px;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Customer Stats</h2>
+            <table>
+                <caption>Monthly Feedback Summary</caption>
+                <tr><th>Month</th><th>Positive</th><th>Neutral</th><th>Negative</th></tr>
+                <tr><td>Jan</td><td>120</td><td>30</td><td>5</td></tr>
+                <tr><td>Feb</td><td>140</td><td>22</td><td>3</td></tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Customer Service Tips</h2>
+            <ol>
+                <li>Be respectful and kind.</li>
+                <li>Include order details if applicable.</li>
+                <li>Use your preferred contact email.</li>
+            </ol>
+        </section>
+
+        <section class="columns" style="column-count: 2; column-gap: 40px;">
+            <p>Clothing 4 All was founded with the vision of making fashion inclusive and accessible. We aim to deliver not only great clothing, but also great service.</p>
+            <p>Whether you're shopping online or visiting in-store, our mission is to help you feel your best in every outfit you wear.</p>
+        </section>
+
+        <section>
+            <h2>Our Introduction Video</h2>
+            <video controls style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto; border-radius: 10px;">
+                <source src="videos/film.mp4" type="video/mp4">
+                <source src="videos/film.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Clothing 4 All. All Rights Reserved. &#169;</p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
